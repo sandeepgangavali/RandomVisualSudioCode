@@ -1,0 +1,116 @@
+.myheader {
+  background-color: black;
+    
+    font-size: 30px;
+    overflow: hidden;
+    height: 10%;
+    width:auto;
+  }
+  .myheader a{
+    color:white;
+    font-size: 20px;
+  }
+
+  /* .myfooter{
+    color:green;
+    font-size:15px;
+    position: absolute;
+    bottom: 0;
+    width:auto;
+    height:auto;
+    } */
+
+    .grid-image{
+      height:50%;
+      width:100%;
+
+    }
+
+    .img-design{
+      height:100%;
+      width: 10%;
+      shape-margin:auto;
+    }
+
+    .footer-main {
+      height: 15%;
+      width: 100%;
+      margin:inherit;
+      padding: 20px 0px;
+      color:white;
+      background-color: black;
+  }
+  .footer-social-media-icon {
+      height: auto;
+      width: 100%;
+      margin:auto;
+  }
+  .footer-social-media-icon ul {
+      text-align: center;
+  }
+  .footer-social-media-icon ul li{
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      margin: 0px 10px;
+      background: cornsilk;
+  }
+  .footer-social-media-icon ul li a{
+      font-size: 25px;
+  }
+  .footer-social-media-icon ul li a i{
+      line-height: 50px;
+  }
+
+  body, html {
+    height: 100%;
+}
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.5)), url("../imag/software.png");
+
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}  
+
+.row{
+  height:auto;
+  width: auto;
+display:flex;
+font-style:normal;
+color:blue;
+ 
+}
+.column{
+  height:auto;
+  width:50%;
+  border-radius: 100%;
+  display:grid;
+  font-size: auto;
+  font-style: oblique;
+  color:black;
+}
+h1{
+  color:blue;
+  font-family: 'Unlock';
+  font-size: 22px;
+}
+
+a {
+  font-size: 15px;
+  color:blue;
+}
